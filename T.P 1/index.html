@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar bg-warning">   
+    <div class="container-fluid">
+            <a class="navbar-brand" href="#">T.P. N°1</a>
+    </div>
+</nav>
+<div class="container mt-3">
+    <h2>Alta producto</h2>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+
+            <div class="mb-3">
+                <label class="form-label">Descripción</label>
+                <input class="form-control" type="text">
+            </div>
+
+            <div class="mb-3">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Detalle</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span> 
+                        <input type="text" class="form-control"value="25.5" aria-label="Amount (to the nearest dollar)">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span> 
+                        <input type="text" class="form-control" placeholder="Precio de venta" aria-label="Amount (to the nearest dollar)">
+                    </div>
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">N°</span> 
+                        <input type="text" class="form-control" placeholder="Stock" aria-label="Amount (to the nearest dollar)">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <select class="form-select">
+                        <option selected disabled value="-1">Categoria</option>
+                        <option value="0">sumar</option>
+                        <option value="1">restar</option>
+                    </select>
+              
+                   
+                
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-success">guardar producto</button>
+            </div>
+            
+
+        </div>
+
+        
+    </div>
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mb-3">
+                    <label class="form-label">Fecha y hora:</label>
+                    <input class="form-control" type="date">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mb-3">
+                    <label class="form-label">Fecha y hora:</label>
+                    <input class="form-control" type="time">
+                </div>
+            </div>   
+        
+</div>
+<img src="https://footwearnews.com/wp-content/uploads/2022/12/GettyImages-1450127078.jpg?w=1024" class="img-fluid" >
+</body>
+</html>
