@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar  bg-danger"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ley de ohm</a>
+        </div>
+    </nav>
+
+
+    <div class="col-lg-6 card">
+        <div class=" card-header">
+          Elija que desea calcular
+        </div>
+        <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-2">
+                        <select onchange="cambiar_label()" id="slt_operacion">
+                        <option value="0">Resistencia</option>
+                        <option value="1">Intensidad</option>
+                        <option value="2">Tensión</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                        <div class="mb-2">
+                            <input class="form-control" id="inp_dato" type="text">
+                        </div>
+                    
+                </div>
+        
+                <div class="row">
+            
+                        <div class=" d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-success">Aceptar</button>
+                        </div>
+        
+                </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
